@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-gray-800 text-white p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+          <h1 class="text-3xl font-bold">FAWAZ</h1>
+          <nav>
+            <ul class="flex space-x-6">
+              <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+              <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+              <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('7.jpg');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 text-center text-white py-36">
+            <h2 class="text-4xl font-bold mb-4">Hi, I'm Fawaz</h2>
+            <p class="text-xl">A Web Developer with a passion for creating amazing user experiences.</p>
+        </div>
+    </section>
+      
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-7xl mx-auto text-center">
+          <h3 class="text-3xl font-bold mb-8">My Skills</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h4 class="font-semibold text-xl">HTML</h4>
+              <p>Expert in HTML5, semantic tags, and SEO optimization.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h4 class="font-semibold text-xl">CSS</h4>
+              <p>Experienced with Tailwind CSS, Flexbox, and Grid Layout.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h4 class="font-semibold text-xl">JavaScript</h4>
+              <p>Proficient in JavaScript and modern ES6+ features.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-12">
+        <div class="max-w-7xl mx-auto text-center">
+          <h3 class="text-3xl font-bold mb-8">My Projects</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <img src="2024-11-21.png" alt="Project 1" class="w-full h-48 object-cover rounded-t-lg mb-4">
+              <h4 class="font-semibold text-xl mb-2">Online store</h4>
+              <p class="text-gray-600">A brief description of the project goes here.</p>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <img src="2024-11-21 (2).png" alt="Project 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+              <h4 class="font-semibold text-xl mb-2">Stopwatch</h4>
+              <p class="text-gray-600">A brief description of the project goes here.</p>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <img src="Screenshot 2024-11-25 094724.png" alt="Project 3" class="w-full h-48 object-cover rounded-t-lg mb-4">
+              <h4 class="font-semibold text-xl mb-2">Landing page</h4>
+              <p class="text-gray-600">A brief description of the project goes here.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-12 bg-gray-200">
+        <div class="max-w-7xl mx-auto text-center">
+          <h3 class="text-3xl font-bold mb-8">Contact Me</h3>
+          <form action="#" method="POST" class="max-w-xl mx-auto">
+            <input type="text" name="name" placeholder="Your Name" class="w-full p-4 mb-4 border border-gray-300 rounded-lg">
+            <input type="email" name="email" placeholder="Your Email" class="w-full p-4 mb-4 border border-gray-300 rounded-lg">
+            <textarea name="message" placeholder="Your Message" class="w-full p-4 mb-4 border border-gray-300 rounded-lg"></textarea>
+            <button type="submit" class="w-full bg-blue-500 text-white p-4 rounded-lg">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+          <p>&copy; 2024 fawaz</p>
+          <div class="flex space-x-6">
+            <a href="#" class="text-blue-400">Facebook</a>
+            <a href="#" class="text-blue-400">Twitter</a>
+            <a href="#" class="text-blue-400">LinkedIn</a>
+          </div>
+        </div>
+      </footer>
+      
+      
+</body>
+</html>
